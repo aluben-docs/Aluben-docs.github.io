@@ -1,26 +1,20 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-
   build:
     name: Build Pages
     runs-on: ubuntu-latest
@@ -31,13 +25,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: bun
       - name: Install dependencies
         run: |
-          yarn
+          bun install
           npx update-browserslist-db@latest
       - name: Build website
-        run: yarn build
+        run: bun run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
