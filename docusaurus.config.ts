@@ -1,21 +1,21 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Aluben',
-  tagline: 'Ending privacy restrictions',
+  tagline: 'Ending internet censorship',
   favicon: 'img/favicon.ico',
 
   url: 'https://aluben-docs.github.io',
   baseUrl: '/',
 
-  organizationName: 'aluben-docs', 
+  organizationName: 'aluben-docs',
   projectName: 'Aluben-docs.github.io',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -70,7 +70,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -121,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Aluben, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Aluben services, Inc. all rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
