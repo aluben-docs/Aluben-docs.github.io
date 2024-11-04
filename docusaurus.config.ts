@@ -61,7 +61,7 @@ const config: Config = {
       title: 'Aluben',
       logo: {
         alt: 'Aluben Logo',
-        src: 'img/logo.svg',
+        src: 'https://avatars.githubusercontent.com/u/176770351?s=200&v=4',
       },
       items: [
         {
