@@ -17,4 +17,3 @@ Aluben is built with cutting-edge technologies to make it blazing fast while kee
 - [TailwindCSS](https://tailwindcss.com) - For utility-first styling
 - [ChemicalJS](https://github.com/chemicaljs/chemical) - Made by Nebulung
 - [TypeScript](https://www.typescriptlang.org) - For type-safe JavaScript development
-
