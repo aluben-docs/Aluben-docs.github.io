@@ -40,7 +40,7 @@ const config: Config = {
             'https://github.com/aluben-docs/Aluben-docs.github.io',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,23 +61,23 @@ const config: Config = {
 
     },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.png',
     navbar: {
       title: 'Aluben',
       logo: {
         alt: 'Aluben Logo',
-        src: 'https://avatars.githubusercontent.com/u/176770351?s=200&v=4',
+        src: 'img/logo.webp',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Getting Started',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/Aluben-services/Aluben',
+          href: 'https://github.com/Aluben-service/Aluben',
           label: 'GitHub',
           position: 'right',
         },
@@ -90,7 +90,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting Started',
               to: '/docs/intro',
             },
           ],
@@ -99,16 +99,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://discord.gg/vnnGGVhY4w',
             },
           ],
         },

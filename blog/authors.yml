@@ -1,23 +1,18 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+coding4hours:
+  name: Coding4Hours
+  title: Aluben Maintainer
+  url: https://coding4hours.github.io
+  image_url: https://github.com/Coding4hours.png
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    github: Coding4hours
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
+creator:
+  name: I don'tt code
+  title: Creator of Aluben.
   url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  image_url: https://github.com/Coding4Hours.png
   page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: '/creator'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: asc2563
